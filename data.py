@@ -1,4 +1,3 @@
-# Data for Users
 users_data = [
     (1, "Alice", "alice@example.com"),
     (2, "Bob", "bob@example.com"),
@@ -9,10 +8,9 @@ users_data = [
     (7, "Grace", "grace@example.com"),
     (8, "Alice", "alice@example.com"),
     (9, "Henry", "henry@example.com"),
-    (10, "", "jane@example.com"),
+   
 ]
 
-# Data for Products
 products_data = [
     (1, "Laptop", 1000.00),
     (2, "Smartphone", 700.00),
@@ -23,10 +21,9 @@ products_data = [
     (7, "Laptop", 1000.00),
     (8, "Smartwatch", 250.00),
     (9, "Gaming Chair", 500.00),
-    (10, "Earbuds", -50.00),
+    
 ]
 
-# Data for Orders
 orders_data = [
     (1, 1, 1, 2),
     (2, 2, 2, 1),
@@ -35,7 +32,7 @@ orders_data = [
     (5, 5, 5, 3),
     (6, 6, 6, 4),
     (7, 7, 7, 2),
-    (8, 8, 8, 0),
-    (9, 9, 1, -1),
-    (10, 10, 11, 2),
+    (8, 8, 1, 2),
+    (9, 9, 1, 1),
+   
 ]

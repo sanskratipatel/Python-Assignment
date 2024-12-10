@@ -32,7 +32,6 @@ CREATE TABLE IF NOT EXISTS Orders (
 );
 """
 
-# Initialize databases
 def setup_databases():
     initialize_database("users.db", CREATE_USERS_TABLE)
     initialize_database("products.db", CREATE_PRODUCTS_TABLE)
